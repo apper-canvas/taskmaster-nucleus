@@ -44,7 +44,6 @@ export default {
         'button-light': '#334155',
         'button-dark': '#f1f5f9'
       },
-    },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Inter', 'ui-sans-serif', 'system-ui']
@@ -76,6 +75,7 @@ export default {
         }
       }
     },
+  },
   },
   plugins: [],
   darkMode: 'class',
