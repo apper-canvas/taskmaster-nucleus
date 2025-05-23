@@ -36,6 +36,15 @@ export default {
           high: '#ef4444'
         }
       },
+      textColor: {
+        'contrast-high': '#ffffff',
+        'contrast-low': '#000000',
+        'button-primary': '#ffffff',
+        'button-secondary': '#1e293b',
+        'button-light': '#334155',
+        'button-dark': '#f1f5f9'
+      },
+    },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Inter', 'ui-sans-serif', 'system-ui']

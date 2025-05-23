@@ -36,11 +36,11 @@ function App() {
             
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-2 md:p-3 rounded-xl bg-surface-100 dark:bg-surface-700 hover:bg-surface-200 dark:hover:bg-surface-600 transition-all duration-200 shadow-soft"
+              className="p-2 md:p-3 rounded-xl bg-surface-100 dark:bg-surface-700 hover:bg-surface-200 dark:hover:bg-surface-600 transition-all duration-200 shadow-soft text-surface-700 dark:text-surface-200"
             >
               <ApperIcon 
                 name={darkMode ? "Sun" : "Moon"} 
-                className="w-5 h-5 md:w-6 md:h-6 text-surface-600 dark:text-surface-300" 
+                className="w-5 h-5 md:w-6 md:h-6 text-surface-700 dark:text-surface-200" 
               />
             </button>
           </div>
